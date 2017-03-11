@@ -14,7 +14,7 @@ $about = 'Новичок в IT';
         <meta charset="utf-8">
     </head>
     <body>
-     <h1>Страница пользователя Дима</h1>
+     <h1>Страница пользователя <?php echo $firstname; ?></h1>
         <dl>
             <dt>Имя</dt>
             <dd><?php echo $firstname; ?></dd>
