@@ -1,10 +1,10 @@
-<?php
+﻿<?php
 $firstname = 'Роман';
 $lastname = 'Михайлов';
 $age = '32';
 $e_mail = 'romable@gmail.com';
 $city = 'Москва';
-$about = 'Новичок в IT'; 
+$about = 'Новичок в IT';
 ?>
 
 <!DOCTYPE>
@@ -12,6 +12,16 @@ $about = 'Новичок в IT';
     <head>
         <title>Без названия</title>
         <meta charset="utf-8">
+        <style>
+            dl {
+                display: table-row;
+            }
+            dt, dd {
+                display: table-cell;
+                border-style: inset;
+                padding: 5px 5px;
+            }
+        </style>
     </head>
     <body>
      <h1>Страница пользователя <?php echo $firstname; ?></h1>
@@ -38,6 +48,6 @@ $about = 'Новичок в IT';
         <dl>
             <dt>О себе</dt>
             <dd><?php echo $about; ?></dd>
-        </dl> 
+        </dl>
     </body>
 </html>
