@@ -24,7 +24,7 @@ $about = 'Новичок в IT';
         </style>
     </head>
     <body>
-     <h1>Страница пользователя <?php echo $firstname; ?></h1>
+     <h2>Страница пользователя <?php echo $firstname; ?></h2>
         <dl>
             <dt>Имя</dt>
             <dd><?php echo $firstname; ?></dd>
