@@ -34,7 +34,7 @@ $about = 'Я не волшебник, я только учусь';
             </tr>
             <tr>
               <td>Город</td>
-              <td><?php echo $age; ?></td>
+              <td><?php echo $city; ?></td>
             </tr>
             <tr>
               <td>О себе</td>
